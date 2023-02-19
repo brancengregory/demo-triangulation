@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Triangulation</title>
+    <style type="text/css">
+      body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
+    </style>
+  </head>
+  <body>
+    <form action = "/submit" method = "post">
+      <h2>Throw 1</h2>
+      <legend>Start</legend>
+      <fieldset>
+        <label for="p1x">X:</label>
+        <input type="number" name="p1x">
+        <label for="p1y">Y:</label>
+        <input type="number" name="p1y">
+      </fieldset>
+      <legend>End</legend>
+      <fieldset>
+        <label for="p2x">X:</label>
+        <input type="number" name="p2x">
+        <label for="p2y">Y:</label>
+        <input type="number" name="p2y">
+      </fieldset>
+      <h2>Throw 2</h2>
+      <legend>Start</legend>
+      <fieldset>
+        <label for="p3x">X:</label>
+        <input type="number" name="p3x">
+        <label for="p3y">Y:</label>
+        <input type="number" name="p3y">
+      </fieldset>
+      <legend>End</legend>
+      <fieldset>
+        <label for="p4x">X:</label>
+        <input type="number" name="p4x">
+        <label for="p4y">Y:</label>
+        <input type="number" name="p4y">
+      </fieldset>
+      <input type="submit" value="Triangulate">
+    </form>
+  </body>
+</html>
